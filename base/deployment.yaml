@@ -12,6 +12,8 @@ spec:
       labels:
         app: demo-app
     spec:
+      imagePullSecrets:
+        - name: ghcr-secret
       containers:
       - name: demo-app
         image: ghcr.io/ttudalor/demo-app:v1
