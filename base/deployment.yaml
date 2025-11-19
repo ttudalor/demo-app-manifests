@@ -16,7 +16,7 @@ spec:
         - name: ghcr-secret
       containers:
       - name: demo-app
-        image: ghcr.io/ttudalor/demo-app:v1
+        image: ghcr.io/ttudalor/demo-app:latest
         ports:
         - containerPort: 3000
 
